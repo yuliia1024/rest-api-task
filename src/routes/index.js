@@ -1,19 +1,22 @@
-const router = (app) =>{
-    app.route('/contact')
-        .get((req,res)=>{
-            res.send('Get req')})
-        .post((req,res)=>{
-            res.send('Post is ok');
-            });
+import {Router} from "express";
+const router = Router();
+import {    getAll,
+            getById,
+            addNew,
+            update,
+            del
+}  from '../controllers/Controllers';
 
+router.get("/", getAll);
 
-    app.route('/contact/:id')
-        .put((req,res)=>{
-            res.send('PUT IS OK')
-        })
-        .delete((req,res)=>{
-            res.send('DEL IS OK')
-        });
+router.get("/:id", getById);
 
-}
-export default router
+router.post("/",  addNew);
+
+router.put('/:id', update);
+
+router.delete('/:id', del);
+
+module.exports = router;
+
+export default router;
