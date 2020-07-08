@@ -20,19 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67038fd7-9965-47a7-b324-51e0bf09a088" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/lessons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/teachers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Controllers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/students.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/lessons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/students.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/teachers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/teachers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/students.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +75,7 @@
       <updated>1594213135420</updated>
       <workItem from="1594213139541" duration="11186000" />
       <workItem from="1594230771151" duration="3936000" />
-      <workItem from="1594235724563" duration="519000" />
+      <workItem from="1594235724563" duration="5569000" />
     </task>
     <servers />
   </component>
@@ -99,10 +95,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="754" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594238207791">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="754" y="342" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080/1982.0.1858.1080@62.0.1858.1080" timestamp="1594238207791" />
     <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594223460890">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080/1982.0.1858.1080@62.0.1858.1080" timestamp="1594223460890" />
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594236238560">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1982.0.1858.1080@62.0.1858.1080" timestamp="1594236238560" />
     <state x="647" y="250" key="run.anything.popup" timestamp="1594217023908">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

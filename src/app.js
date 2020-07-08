@@ -1,12 +1,14 @@
 import express from 'express';
 import {DB} from './db/db';
 import bodyParser from 'body-parser';
-import routes from './routes/students';
+import routes from './routes/index';
+
 const app = express();
 const PORT = 8000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+routes(app);
 
 const begin = async () =>{
     console.log('Try to connect to DB...');
@@ -16,4 +18,4 @@ const begin = async () =>{
     );
 }
 begin();
-routes(app);
+

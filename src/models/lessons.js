@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-export const Lesson = new Schema({
+export const LessonSchema = new Schema({
     lessonName: {
         type: String,
         required: true,
