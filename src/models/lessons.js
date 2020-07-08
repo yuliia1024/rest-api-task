@@ -1,20 +1,28 @@
 import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
-export const Lessons = new Schema({
-    timetable: {
+
+export const Lesson = new Schema({
+    lessonName: {
         type: String,
         required: true,
     },
-    groupNumber:{
+    room: {
+        type: Number,
+        required: true,
+    },
+    lessonNumber: {
         type: Number,
         required: true,
     },
     teacher: {
-        type: String,
+        firstName: {
+            type: String,
+            required: true
+        },
+        lastName: {
+            type: String,
+            required: true
+        },
     },
-    courseName: {
-        type: String
-    }
-})
-
+});

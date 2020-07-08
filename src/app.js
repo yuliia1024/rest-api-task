@@ -1,22 +1,19 @@
-import 'dotenv/config';
 import express from 'express';
-import router from "./routes/index.js";
-import mongoose from 'mongoose';
+import {DB} from './db/db';
 import bodyParser from 'body-parser';
-
+import routes from './routes/students';
 const app = express();
-const PORT= process.env.PORT;
+const PORT = 8000;
 
-app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-router(app);
-
-
-app.listen(PORT, (err)=>{
-    if(err){
-        return console.log(err);
-    }
-    console.log(`start on port ${PORT}`)
-})
-
+const begin = async () =>{
+    console.log('Try to connect to DB...');
+    await DB();
+    app.listen(PORT, () =>
+        console.log(`Your server is running on port ${PORT}`)
+    );
+}
+begin();
+routes(app);

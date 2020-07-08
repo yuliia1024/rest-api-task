@@ -1,16 +1,18 @@
 import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
-export const Students = new Schema({
-    name: {
-        type: String,
-        required:true
 
+export const StudentSchema = new Schema({
+    firstName: {
+        type: String,
+        required: 'Enter a first name'
     },
-    group:{
-        type: Number,
+    lastName: {
+        type: String,
+        required: 'Enter a last name'
     },
-    course:{
-        type: Number,
-    },
-})
+    group: {
+        type: String,
+        required: true,
+        },
+});//export default mongoose.model('Students', Students);

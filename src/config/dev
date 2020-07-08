@@ -1,3 +1,0 @@
-require('dotenv/config');
-require('./../app.js');
-require('./../db/db.js');
