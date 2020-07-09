@@ -20,12 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67038fd7-9965-47a7-b324-51e0bf09a088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/.data.blob" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/esm/.data.blob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/.data.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/esm/.data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/0db867bb0e01eafe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/1f0b4e1a127cd430.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/9629131e9de2d196.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/ec29c03256301bfc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dotenv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dotenv/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rest-api-task\src\config" />
       <recent name="D:\rest-api-task" />
+      <recent name="D:\rest-api-task\src\config" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -80,7 +88,7 @@
       <workItem from="1594213139541" duration="11186000" />
       <workItem from="1594230771151" duration="3936000" />
       <workItem from="1594235724563" duration="9672000" />
-      <workItem from="1594300766772" duration="2949000" />
+      <workItem from="1594300766772" duration="6916000" />
     </task>
     <servers />
   </component>

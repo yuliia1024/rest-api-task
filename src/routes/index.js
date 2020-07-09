@@ -1,5 +1,3 @@
-//import express from "express";
-
 import {addNewStudent,
         getStudentById,
         getStudent,
@@ -22,11 +20,10 @@ import { login, register, loginRequired } from '../controllers/user';
 const routes = (app) => {
     app.route('/student')
         .get((req, res, next) => {
-            // middleware
             console.log(`Request from: ${req.originalUrl}`)
             console.log(`Request type: ${req.method}`)
             next();
-        },loginRequired, getStudent)
+        }, getStudent)
         .post(loginRequired, addNewStudent);
     app.route('/student/:studentID')
         .get(getStudentById)
@@ -36,24 +33,22 @@ const routes = (app) => {
 
     app.route('/teachers')
         .get((req, res, next) => {
-            // middleware
             console.log(`Request from: ${req.originalUrl}`)
             console.log(`Request type: ${req.method}`)
             next();
         }, getTeacher)
 
-        .post(loginRequired,addNewTeacher);
+        .post(loginRequired, addNewTeacher);
     app.route('/teachers/:teacherID')
         .get(getTeacherById);
 
 
     app.route('/lessons')
         .get((req, res, next) => {
-            // middleware
             console.log(`Request from: ${req.originalUrl}`)
             console.log(`Request type: ${req.method}`)
             next();
-        }, getLessons)
+        },  getLessons)
         .post(loginRequired, addNewLesson);
 
     app.route('/lessons/:lessonsID')
